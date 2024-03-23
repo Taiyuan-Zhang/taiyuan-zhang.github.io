@@ -11,6 +11,8 @@ I'm a first-year graduate student from [MSCS program](https://web.cs.dartmouth.e
 
 Email: [taiyuan.zhang.gr@dartmouth.edu](mailto: taiyuan.zhang.gr@dartmouth.edu), [imaginer.tai@gmail.com](imaginer.tai@gmail.com) / [Github] (https://github.com/Taiyuan-Zhang)
 
+Publications
+======
 {% include base_path %}
 
 {% for post in site.publications reversed %}
