@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Taiyuan Zhang / 张泰源"
+title                    : "Taiyuan Zhang"
 title_separator          : "-"
 name                     : &name "Taiyuan Zhang"
-description              : &description "MSCS student from Dartmouth College"
+description              : &description "First-year MSCS student from Dartmouth College"
 url                      : https://taiyuan-zhang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "taiyuan-zhang/taiyuan-zhang.github.io"
@@ -35,7 +35,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=aoqxTFEAAAAJ&hl=zh-CN"
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-7395-5372"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
 
   # Repositories and software development
@@ -47,7 +47,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -64,7 +64,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : "UniofOxford"  # Replace this with your X / Twitter handle
+  twitter          : # Replace this with your X / Twitter handle
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
