@@ -21,7 +21,7 @@ repository               : "taiyuan-zhang/taiyuan-zhang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Taiyuan Zhang / 张泰源"
   pronouns         : # example: "he/his"  
   bio              : "MSCS student from Dartmouth College"
