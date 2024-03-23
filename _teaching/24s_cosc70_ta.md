@@ -1,5 +1,5 @@
 ---
-title: "TA: COSC 70 Foundations of Applied Computer Science"
+title: "TA: 24S COSC 70 Foundations of Applied Computer Science"
 collection: teaching
 type: "Instructor: Prof. Yaoqing Yang"
 permalink: /teaching/24s_cosc70_ta
