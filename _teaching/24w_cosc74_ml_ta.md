@@ -1,5 +1,5 @@
 ---
-title: "TA: COSC 74/274 Machine Learning and Statistical Data Analysis"
+title: "TA: 24W COSC 74/274 Machine Learning and Statistical Data Analysis"
 collection: teaching
 type: "Instructor: Prof. Michael A. Casey, Prof. Souyoung Jin"
 permalink: /teaching/24w_cosc74_ml_ta
