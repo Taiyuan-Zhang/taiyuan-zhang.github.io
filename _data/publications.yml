@@ -1,22 +1,24 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: Multi-level Partition of Unity on Differentiable Moving Particles
+    authors: Jinjin He, <strong>Taiyuan Zhang</strong>, Hiroki Kobayashi, Atsushi Kawamoto, Yuqing Zhou, Tsuyoshi Nomura, Bo Zhu
+    conference_short: SIGGRAPH Asia
+    conference: ACM Transactions on Graphics (TOG). 43, 6, Article 273. December 2024.
+    pdf: ./assets/files/diff_mpu.pdf
+    code: https://github.com/jinjinhe2001/diffmpu
+    page: https://jinjinhe2001.github.io/diffmpu-page/index.html
+    bibtex: ./assets/files/diff_mpu_bibtex.txt
+    image: ./assets/img/diff_mpu_teaser.png
+    notes: 
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: Versatile Control of Fluid-Directed Solid Objects Using Multi-Task Reinforcement Learning
+    authors: Bo Ren, Xiaohan Ye, Zherong Pan, <strong>Taiyuan Zhang</strong>
+    conference_short: TOG
+    conference: ACM Transactions on Graphics, 2022, Vol. 42, 2, Article 15. October 2022.
+    pdf: ./assets/files/yxh_tog22.pdf
+    code: https://github.com/lvsichan/jittor-METARL
+    page: 
+    bibtex: ./assets/files/yxh_tog22_bibtex.txt
+
+    notes: 
+    image: ./assets/img/yxh_tog22_teaser.png

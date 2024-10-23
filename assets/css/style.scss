@@ -2,3 +2,110 @@
 ---
 
 @import "minimal-light";
+// Variables
+$profile-container-padding: 20px;
+$profile-container-bg-color: #fff;
+$profile-container-box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+$profile-title-margin: 0 auto;
+$social-icon-size: 24px;
+$social-icon-margin: 0 5px; // Adjusted margin between social icons
+$main-content-padding: 10px;
+
+// Wrapper
+.wrapper {
+  display: flex;
+  flex-direction: column; // Stack profile container on top
+  align-items: center;
+}
+
+// Profile Container
+.profile-container {
+  padding: $profile-container-padding;
+  width: 100%; // Full width for profile container
+  max-width: 100%; // Ensure it takes full width
+  background-color: $profile-container-bg-color;
+//   box-shadow: $profile-container-box-shadow;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0px; // Add space below the profile container
+}
+
+// Profile Header
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row; // Align avatar and info in a row
+  flex-wrap: wrap; // Allow wrapping to prevent overlap
+}
+
+// Avatar Image
+.image.avatar img {
+  width: 100px; // Adjust avatar size
+  height: auto; // Maintain aspect ratio
+  border-radius: 50%; // Make the avatar circular
+}
+
+// Profile Info
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center; // Center align text
+  margin-left: 10px;
+  flex: 1; // Allow profile info to take available space
+}
+
+// Profile Title
+.profile-title {
+  white-space: pre-line;
+  margin: $profile-title-margin;
+}
+
+// Social Icons
+.social-icons {
+  margin-top: 10px; // Reduced margin to bring social icons closer
+
+  a {
+    margin: $social-icon-margin;
+    display: inline-block;
+
+    img {
+      width: $social-icon-size;
+      height: $social-icon-size;
+    }
+  }
+}
+
+// Main Content
+.main-content {
+  padding: $main-content-padding;
+  width: 100%; // Ensure main content takes full width
+}
+
+// Responsive Adjustments
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column; // Stack avatar and info vertically on smaller screens
+    align-items: center;
+  }
+
+  .profile-info {
+    margin-left: 0; // Remove left margin
+    align-items: center; // Center align text
+  }
+
+  .social-icons {
+    margin-top: 10px; // Reduce margin for smaller screens
+
+    a {
+      margin: 0 5px; // Reduce space between icons
+    }
+
+    img {
+      width: 20px; // Adjust icon size for smaller screens
+      height: 20px; // Adjust icon size for smaller screens
+    }
+  }
+}

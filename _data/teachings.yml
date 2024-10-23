@@ -1,0 +1,19 @@
+teaching_experience:
+
+  - semester: "Fall 2024"
+    course: "COSC 77/277 Computer Graphics"
+    role: "Teaching Assistant"
+    instructor: "Prof. Wojciech Jarosz"
+    institution: "Dartmouth College"
+
+  - semester: "Spring 2024"
+    course: "COSC 70 Foundations of Applied Computer Science"
+    role: "Teaching Assistant"
+    instructor: "Prof. Yaoqing Yang"
+    institution: "Dartmouth College"
+  
+  - semester: "Winter 2024"
+    course: "COSC 74/274 Machine Learning and Statistical Data Analysis"
+    role: "Teaching Assistant"
+    instructor: "Prof. Sarah Preum"
+    institution: "Dartmouth College"

@@ -1,8 +1,8 @@
 # Basic Information 
-title: Taiyuan Zhang（张泰源）
-position: Ph.D. Student
-affiliation: Your Affiliation
-email: yourname (at) example.edu
+title: Taiyuan Zhang (张泰源)
+position: MSCS Student
+affiliation: Dartmouth College
+email: taiyuan.zhang.gr@dartmouth.edu / imaginer.tai@gmail.com
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -12,11 +12,11 @@ canonical: https://minimal-light-theme.yliu.me/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/
-cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/
-linkedin: https://www.linkedin.com/
-twitter: https://twitter.com/
+google_scholar: https://scholar.google.com/citations?user=aoqxTFEAAAAJ&hl
+cv_link: assets/files/cv_taiyuan_zhang.pdf
+github_link: https://github.com/Taiyuan-Zhang
+linkedin: https://www.linkedin.com/in/taiyuan-zhang0805/
+twitter: 
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
