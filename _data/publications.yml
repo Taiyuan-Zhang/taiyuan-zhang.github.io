@@ -14,7 +14,7 @@ main:
   - title: Versatile Control of Fluid-Directed Solid Objects Using Multi-Task Reinforcement Learning
     authors: Bo Ren, Xiaohan Ye, Zherong Pan, <strong>Taiyuan Zhang</strong>
     conference_short: TOG
-    conference: ACM Transactions on Graphics, 2022, Vol. 42, 2, Article 15. October 2022.
+    conference: ACM Transactions on Graphics (TOG). 42, 2, Article 15. October 2022.
     pdf: ./assets/files/yxh_tog22.pdf
     code: https://github.com/lvsichan/jittor-METARL
     page: 
