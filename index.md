@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a second-year graduate student from [MSCS program](https://web.cs.dartmouth.edu/), [Dartmouth College](https://home.dartmouth.edu/), advised by [Prof.Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/). My research interests lie in computer graphics, computational physics, and artificial intelligence. I earned my B.E. from Nankai University, where I was fortunate to be advised by [Prof. Bo Ren](https://ren-bo.net/).
+I am now an Algorithm Engineer in [Alibaba Group](https://www.alibaba.com/), specializing in **computer graphics**, **computational physics**, and **artificial intelligence**. I received my M.S. from [Dartmouth College](https://home.dartmouth.edu/), where I was advised by [Prof. Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/). Prior to that, I earned my B.E. from Nankai University under the guidance of [Prof. Bo Ren](https://ren-bo.net/).
 
 <!-- ## Research Interests
 
