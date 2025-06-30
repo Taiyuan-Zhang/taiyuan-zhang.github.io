@@ -1,26 +1,25 @@
 working_experience:
 
+  - date: "2025 - present"
+    location: "China"
+    role: "Senior Algorithm Engineer"
+    institution: "Alibaba Group"
+
+  - date: "2023 - 2025"
+    location: "USA"
+    role: "Research intern"
+    advisor: "Prof. Bo Zhu"
+    institution: "Georgia Institute of Technology (remote)"
+
   - date: "Summer 2024"
     location: "China"
     role: "Research intern"
     advisor: "Prof. Tao Du"
     institution: "Shanghai Qi Zhi Institute Shanghai"
 
-  - date: "2023 - present"
-    location: "USA"
-    role: "Research intern"
-    advisor: "Prof. Bo Zhu"
-    institution: "Georgia Institute of Technology (remote)"
-
-  - date: "2022 - 2023"
+  - date: "2021 - 2023"
     location: "China"
     role: "Research assistant"
-    advisor: "Prof. Bo Ren"
-    institution: "Nankai University"
-  
-  - date: "2021 - 2022"
-    location: "China"
-    role: "Research intern"
     advisor: "Prof. Bo Ren"
     institution: "Nankai University"
 

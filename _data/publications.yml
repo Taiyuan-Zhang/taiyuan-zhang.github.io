@@ -1,7 +1,29 @@
 main:
 
+  - title: Controllable Complex Freezing Dynamics Simulation on Thin Films
+    authors: Yijie Liu*, <strong><u>Taiyuan Zhang</u></strong>* (joint 1st authors), Xiaoxiao Yan, Nuoming Liu, Bo Ren
+    conference_short: SIGGRAPH
+    conference: ACM Transactions on Graphics (TOG). Volume 44, Issue 4. August 2025.
+    pdf: ./assets/files/lyj_tog2025.pdf
+    code: 
+    page: 
+    bibtex: ./assets/files/freezing_bubble_bibtex.txt
+    image: ./assets/img/freezing_bubble_teaser.png
+    notes: 
+
+  - title: Fluid Simulation on Compressible Flow Maps
+    authors: Duowen Chen*, Zhiqi Li* (joint 1st authors), <strong><u>Taiyuan Zhang</u></strong>, Jinjin He, Junwei Zhou, Bart G. van Bloemen Waanders, Bo Zhu
+    conference_short: SIGGRAPH
+    conference: ACM Transactions on Graphics (TOG). Volume 44, Issue 4. August 2025.
+    pdf: https://cdwj.github.io/projects/compressible-flowmap-project-page/static/pdfs/SIG_2025__Compressible_Flow_Map_Upload.pdf
+    code: https://pfm-gatech.github.io/pfm-website/
+    page: https://cdwj.github.io/projects/compressible-flowmap-project-page/index.html
+    bibtex: ./assets/files/compressible_bibtex.txt
+    image: ./assets/img/compressible_teaser.png
+    notes: 
+
   - title: Multi-level Partition of Unity on Differentiable Moving Particles
-    authors: Jinjin He, <strong>Taiyuan Zhang</strong>, Hiroki Kobayashi, Atsushi Kawamoto, Yuqing Zhou, Tsuyoshi Nomura, Bo Zhu
+    authors: Jinjin He, <strong><u>Taiyuan Zhang</u></strong>, Hiroki Kobayashi, Atsushi Kawamoto, Yuqing Zhou, Tsuyoshi Nomura, Bo Zhu
     conference_short: SIGGRAPH Asia
     conference: ACM Transactions on Graphics (TOG). 43, 6, Article 273. December 2024.
     pdf: ./assets/files/diff_mpu.pdf
@@ -12,7 +34,7 @@ main:
     notes: 
 
   - title: Versatile Control of Fluid-Directed Solid Objects Using Multi-Task Reinforcement Learning
-    authors: Bo Ren*, Xiaohan Ye* (joint 1st authors), Zherong Pan, <strong>Taiyuan Zhang</strong>
+    authors: Bo Ren*, Xiaohan Ye* (joint 1st authors), Zherong Pan, <strong><u>Taiyuan Zhang</u></strong>
     conference_short: TOG
     conference: ACM Transactions on Graphics (TOG). 42, 2, Article 15. October 2022.
     pdf: ./assets/files/yxh_tog22.pdf

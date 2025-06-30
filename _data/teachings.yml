@@ -1,12 +1,18 @@
 teaching_experience:
 
+  - semester: "Spring 2025"
+    course: "COSC 70 Foundations of Applied Computer Science"
+    role: "Teaching Assistant"
+    instructor: "Prof. Wojciech Jarosz"
+    institution: "Dartmouth College"
+
   - semester: "Fall 2024"
     course: "COSC 77/277 Computer Graphics"
     role: "Teaching Assistant"
     instructor: "Prof. Wojciech Jarosz"
     institution: "Dartmouth College"
 
-  - semester: "Spring 2024"
+  - semester: "Spring 2024, Winter 2025"
     course: "COSC 70 Foundations of Applied Computer Science"
     role: "Teaching Assistant"
     instructor: "Prof. Yaoqing Yang"

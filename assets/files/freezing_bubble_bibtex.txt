@@ -1,0 +1,10 @@
+@article{liu2025freezing,
+        title={Controllable Complex Freezing Dynamics Simulation on Thin Films},
+        author={Liu, Yijie and Zhang, Taiyuan and Yan, Xiaoxiao and Liu, Nuoming and Ren, Bo},
+        journal={ACM Transactions on Graphics},
+        year={2025},
+        volume={44},
+        number={4},
+        note={to appear},
+        publisher={ACM New York, NY}
+      }
