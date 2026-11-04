@@ -1,0 +1,11 @@
+main:
+  - institution: Dartmouth College
+    institution_link: https://home.dartmouth.edu/
+    degree: M.S.
+    advisor: Prof. Bo Zhu
+    advisor_link: https://faculty.cc.gatech.edu/~bozhu/
+
+  - institution: Nankai University
+    degree: B.E.
+    advisor: Prof. Bo Ren
+    advisor_link: https://cc.nankai.edu.cn/2021/0323/c13619a572934/page.htm

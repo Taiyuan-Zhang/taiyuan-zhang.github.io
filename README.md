@@ -1,3 +1,36 @@
+# Taiyuan Zhang's Personal Website
+
+Source for <https://taiyuan-zhang.github.io/>, built with Jekyll. The current layout and styles are maintained in this repository; the original Minimal Light theme documentation and credits are retained below.
+
+## Updating this website
+
+| Content | File |
+| --- | --- |
+| Name, role, affiliation, email, profile and social links | `_config.yml` |
+| Introduction and section order | `index.md` |
+| Publications | `_data/publications.yml` |
+| Work experience | `_data/works.yml` |
+| Teaching experience | `_data/teachings.yml` |
+| Education | `_data/education.yml` |
+| Page layout and styles | `_layouts/homepage.html`, `_sass/homepage.scss` |
+| CV, papers and BibTeX | `assets/files/` |
+| Profile photo and publication images | `assets/img/` |
+
+To preview locally with Ruby and Bundler installed:
+
+```sh
+bundle install
+bundle exec jekyll serve --host 127.0.0.1
+```
+
+Open <http://127.0.0.1:4000/>. Use `bundle exec jekyll build` to check a change before publishing. The `html_source_file/` directory is an unused theme example; edit the files above for the live website.
+
+The current design uses system fonts and the portrait configured in `avatar`; set `show_avatar: false` to hide it. Publications appear in their YAML order, with a shared `* Co-first authors` note. Light, Dark, and System buttons switch the color theme and remember the visitor's choice.
+
+The original theme documentation and credits follow.
+
+---
+
 # The Minimal Light Theme
 
 [![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)

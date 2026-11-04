@@ -1,0 +1,14 @@
+<section id="education" class="content-section" aria-labelledby="education-heading">
+  <div class="section-heading">
+    <h2 id="education-heading">Education</h2>
+  </div>
+  <div class="education-list">
+    {% for education in site.data.education.main %}
+    <div class="education-item">
+      <p class="education-degree">{{ education.degree }}</p>
+      <h3>{% if education.institution_link %}<a href="{{ education.institution_link }}">{{ education.institution }}</a>{% else %}{{ education.institution }}{% endif %}</h3>
+      <p>Advisor: <a href="{{ education.advisor_link }}">{{ education.advisor }}</a></p>
+    </div>
+    {% endfor %}
+  </div>
+</section>

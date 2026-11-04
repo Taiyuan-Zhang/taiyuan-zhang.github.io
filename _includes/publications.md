@@ -1,51 +1,32 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
-
-<div class="publications">
-<ol class="bibliography">
-
-{% for link in site.data.publications.main %}
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-    {% if link.conference_short %} 
-    <abbr class="badge">{{ link.conference_short }}</abbr>
-    {% endif %}
-    {% endif %}
+<section id="publications" class="content-section" aria-labelledby="publications-heading">
+  <div class="section-heading">
+    <h2 id="publications-heading">Publications</h2>
+    <p class="publication-legend">* Co-first authors.</p>
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
-      </div>
-    <div class="links">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      {% endif %}
-      {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
-    </div>
-  </div>
-</div>
-</li>
-<br>
-
-{% endfor %}
-
-</ol>
-</div>
+  <ol class="publication-list">
+      {% for publication in site.data.publications.main %}
+      <li class="publication">
+        {% if publication.image %}
+        <a class="publication-thumbnail" href="{{ publication.page | default: publication.pdf }}" target="_blank" rel="noopener" aria-label="{{ publication.title | escape }} — {% if publication.page %}project page{% else %}paper{% endif %}">
+          <img src="{{ publication.image }}" alt="{{ publication.title | escape }}" loading="lazy" decoding="async">
+          {% if publication.conference_short %}<span class="publication-badge">{{ publication.conference_short }}</span>{% endif %}
+        </a>
+        {% endif %}
+        <div class="publication-body">
+          <h3 class="publication-title"><a href="{{ publication.pdf }}" target="_blank" rel="noopener">{{ publication.title }}</a></h3>
+          <p class="publication-authors">{{ publication.authors }}</p>
+          <p class="publication-venue">{{ publication.conference }}</p>
+          <div class="publication-links">
+            {% if publication.pdf %}<a href="{{ publication.pdf }}" target="_blank" rel="noopener">PDF <span aria-hidden="true">↗</span></a>{% endif %}
+            {% if publication.code %}<a href="{{ publication.code }}" target="_blank" rel="noopener">Code <span aria-hidden="true">↗</span></a>{% endif %}
+            {% if publication.page %}<a href="{{ publication.page }}" target="_blank" rel="noopener">Project <span aria-hidden="true">↗</span></a>{% endif %}
+            {% if publication.bibtex %}<a href="{{ publication.bibtex }}" target="_blank" rel="noopener">BibTeX <span aria-hidden="true">↗</span></a>{% endif %}
+            {% if publication.doi %}<a href="{{ publication.doi }}" target="_blank" rel="noopener">DOI <span aria-hidden="true">↗</span></a>{% endif %}
+            {% if publication.notes %}<span class="publication-note">{{ publication.notes }}</span>{% endif %}
+            {% if publication.others %}{{ publication.others }}{% endif %}
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+  </ol>
+</section>
