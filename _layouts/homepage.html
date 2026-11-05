@@ -58,11 +58,9 @@
     <footer class="site-footer page-width">
       <div>
         <p class="footer-name">{{ site.name | escape }} <span lang="zh">{{ site.name_zh }}</span></p>
-        <div class="footer-emails">
-          {% for address in site.emails %}
-          <a href="mailto:{{ address }}">{{ address }}</a>
-          {% endfor %}
-        </div>
+        {% if site.last_updated %}
+        <p class="footer-updated">Last updated <time datetime="{{ site.last_updated | date: '%Y-%m-%d' }}">{{ site.last_updated | date: '%B %-d, %Y' }}</time></p>
+        {% endif %}
       </div>
       <div class="footer-meta">
         <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
