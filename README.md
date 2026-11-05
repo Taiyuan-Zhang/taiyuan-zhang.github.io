@@ -23,9 +23,17 @@ bundle install
 bundle exec jekyll serve --host 127.0.0.1
 ```
 
-Open <http://127.0.0.1:4000/>. Use `bundle exec jekyll build` to check a change before publishing. The `html_source_file/` directory is an unused theme example; edit the files above for the live website.
+Open <http://127.0.0.1:4000/>. The `html_source_file/` directory is an unused theme example; edit the files above for the live website.
 
-The current design uses system fonts and the portrait configured in `avatar`; set `show_avatar: false` to hide it. Publications appear in their YAML order, with a shared `* Co-first authors` note. Light, Dark, and System buttons switch the color theme and remember the visitor's choice.
+When updating the site, set `last_updated` in `_config.yml` to the edit date. Run this command with Python 3 and the Jekyll gems installed before publishing:
+
+```sh
+python3 scripts/check-site.py
+```
+
+The command builds the site in a temporary directory and checks homepage anchors and local assets, including the CV and responsive image variants.
+
+Set `avatar` to the original portrait used for share previews and `avatar_thumbnail` to an optional smaller image for the homepage. Set `show_avatar: false` to hide it. Each publication's `image` is the default cover, and `image_srcset` can list additional widths. Publications appear in their YAML order, with a shared `* Co-first authors` note. Light, Dark, and System buttons switch the color theme and remember the visitor's choice.
 
 The original theme documentation and credits follow.
 

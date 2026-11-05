@@ -8,7 +8,10 @@
       <li class="publication">
         {% if publication.image %}
         <a class="publication-thumbnail" href="{{ publication.page | default: publication.pdf }}" target="_blank" rel="noopener" aria-label="{{ publication.title | escape }} — {% if publication.page %}project page{% else %}paper{% endif %}">
-          <img src="{{ publication.image }}" alt="{{ publication.title | escape }}" loading="lazy" decoding="async">
+          <img src="{{ publication.image | escape }}"
+               {% if publication.image_srcset %}srcset="{{ publication.image_srcset | escape }}"
+               sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) 166px, 184px"{% endif %}
+               alt="{{ publication.title | escape }}" loading="lazy" decoding="async">
           {% if publication.conference_short %}<span class="publication-badge">{{ publication.conference_short }}</span>{% endif %}
         </a>
         {% endif %}

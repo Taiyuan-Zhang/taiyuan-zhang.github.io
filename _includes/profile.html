@@ -1,28 +1,36 @@
-<section class="hero{% if site.show_avatar %} hero-with-portrait{% endif %}" aria-labelledby="profile-name">
+<section class="hero{% if site.show_avatar and site.avatar %} hero-with-portrait{% endif %}" aria-labelledby="profile-name">
   <div class="hero-copy">
     <p class="eyebrow">Research &amp; engineering</p>
     <h1 id="profile-name">{{ site.name | escape }} <span lang="zh">{{ site.name_zh }}</span></h1>
     <p class="hero-role">{{ site.position | escape }} <span class="role-divider" aria-hidden="true">/</span> <a href="{{ site.affiliation_link }}">{{ site.affiliation | escape }}</a></p>
     <div class="hero-introduction">{{ include.introduction | markdownify }}</div>
     <nav class="profile-links" aria-label="Contact and profiles">
-      {% for address in site.emails %}
-      <a href="mailto:{{ address | escape }}">{{ address | escape }} <span aria-hidden="true">↗</span></a>
-      {% endfor %}
-      {% if site.cv_link %}
-      <a href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener">CV <span aria-hidden="true">↗</span></a>
+      {% if site.emails.size > 0 %}
+      <div class="profile-link-group">
+        {% for address in site.emails %}
+        <a href="mailto:{{ address | escape }}">{{ address | escape }} <span aria-hidden="true">↗</span></a>
+        {% endfor %}
+      </div>
       {% endif %}
-      {% if site.google_scholar %}
-      <a href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
-      {% endif %}
-      {% if site.github_link %}
-      <a href="{{ site.github_link }}" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
-      {% endif %}
-      {% if site.linkedin %}
-      <a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+      {% if site.cv_link or site.google_scholar or site.github_link or site.linkedin %}
+      <div class="profile-link-group">
+        {% if site.cv_link %}
+        <a href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener">CV <span aria-hidden="true">↗</span></a>
+        {% endif %}
+        {% if site.google_scholar %}
+        <a href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
+        {% endif %}
+        {% if site.github_link %}
+        <a href="{{ site.github_link }}" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+        {% endif %}
+        {% if site.linkedin %}
+        <a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+        {% endif %}
+      </div>
       {% endif %}
     </nav>
   </div>
   {% if site.show_avatar and site.avatar %}
-  <img class="portrait" src="{{ site.avatar | relative_url }}" alt="Portrait of {{ site.name | escape }}" width="160" height="160" decoding="async">
+  <img class="portrait" src="{{ site.avatar_thumbnail | default: site.avatar | relative_url }}" alt="Portrait of {{ site.name | escape }}" width="160" height="160" decoding="async">
   {% endif %}
 </section>

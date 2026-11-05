@@ -37,7 +37,8 @@ main:
     code: 
     page: 
     bibtex: ./assets/files/freezing_bubble_bibtex.txt
-    image: ./assets/img/freezing_bubble_teaser.png
+    image: ./assets/img/thumbnails/freezing_bubble-384.webp
+    image_srcset: ./assets/img/thumbnails/freezing_bubble-384.webp 384w, ./assets/img/thumbnails/freezing_bubble-688.webp 688w
     notes: 
 
   - title: Fluid Simulation on Compressible Flow Maps
@@ -48,7 +49,8 @@ main:
     code: https://pfm-gatech.github.io/pfm-website/
     page: https://cdwj.github.io/projects/compressible-flowmap-project-page/index.html
     bibtex: ./assets/files/compressible_bibtex.txt
-    image: ./assets/img/compressible_teaser.png
+    image: ./assets/img/thumbnails/compressible-384.webp
+    image_srcset: ./assets/img/thumbnails/compressible-384.webp 384w, ./assets/img/thumbnails/compressible-676.webp 676w
     notes: 
 
   - title: Multi-level Partition of Unity on Differentiable Moving Particles
@@ -59,7 +61,8 @@ main:
     code: https://github.com/jinjinhe2001/diffmpu
     page: https://jinjinhe2001.github.io/diffmpu-page/index.html
     bibtex: ./assets/files/diff_mpu_bibtex.txt
-    image: ./assets/img/diff_mpu_teaser.png
+    image: ./assets/img/thumbnails/diff_mpu-384.webp
+    image_srcset: ./assets/img/thumbnails/diff_mpu-384.webp 384w, ./assets/img/thumbnails/diff_mpu-444.webp 444w
     notes: 
 
   - title: Versatile Control of Fluid-Directed Solid Objects Using Multi-Task Reinforcement Learning
@@ -72,4 +75,5 @@ main:
     bibtex: ./assets/files/yxh_tog22_bibtex.txt
 
     notes: 
-    image: ./assets/img/yxh_tog22_teaser.png
+    image: ./assets/img/thumbnails/yxh_tog22-384.webp
+    image_srcset: ./assets/img/thumbnails/yxh_tog22-384.webp 384w, ./assets/img/thumbnails/yxh_tog22-619.webp 619w

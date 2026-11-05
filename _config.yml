@@ -29,6 +29,7 @@ twitter:
 
 # Profile image (enabled with show_avatar) and favicon.
 avatar: /assets/img/avatar.jpg
+avatar_thumbnail: /assets/img/thumbnails/avatar-384.webp
 show_avatar: true
 favicon: /assets/img/favicon.svg
 
@@ -53,3 +54,4 @@ exclude:
   - LICENSE
   - minimal-light.gemspec
   - html_source_file/
+  - scripts/
