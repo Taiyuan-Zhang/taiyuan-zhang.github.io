@@ -3,12 +3,13 @@ main:
   - title: Hamiltonian Two-Way Coupling of Nonlinear Waves and 3D Flows
     authors: Sinan Wang*, Ruicheng Wang*, <strong><u>Taiyuan Zhang</u></strong>, Fan Feng, Jinjin He, Yuchen Sun, Zhiqi Li, Bo Zhu
     conference_short: SIGGRAPH Asia
-    conference: ACM Transactions on Graphics (TOG). Volume 45, Issue 6. To appear, 2026.
+    conference: ACM Transactions on Graphics (TOG). Volume 45, Issue 6. November 2026.
     pdf: https://arxiv.org/pdf/2608.25203
     code: https://github.com/swang3081/Hamiltonian-Two-Way-Coupling-of-Nonlinear-Waves-and-3D-Flows
     page: https://hamwave.sinanw.com/
     bibtex: https://hamwave.sinanw.com/#text03
     image: https://jinjinhe2001.github.io/images/hamiltonian-waves.jpg
+    doi: https://doi.org/10.1145/3842540
 
   - title: A Level Set Method on Particle Flow Maps
     authors: Jinjin He, <strong><u>Taiyuan Zhang</u></strong>, Zhiqi Li, Junwei Zhou, Duowen Chen, Bo Zhu
